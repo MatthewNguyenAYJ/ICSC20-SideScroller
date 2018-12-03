@@ -17,7 +17,7 @@ x= -100;
 
 function keyPressed(){
 if (key == ' ') {
-	var jump = createVector(0, -5);
+	var jump = createVector(0, -7);
   person.applyForce(jump);
 }
 	
